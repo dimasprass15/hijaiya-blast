@@ -5,8 +5,8 @@ const OFFLINE_URLS = [
   './style.css',
   './app.js',
   './manifest.json',
-  './dist/output.css',
-  './fonts/uthmanic.css'
+  './output.css',
+  './uthmanic.css'
 ];
 
 self.addEventListener('install', (event) => {
@@ -54,5 +54,6 @@ self.addEventListener('fetch', (event) => {
     )
   );
 });
+
 
 
